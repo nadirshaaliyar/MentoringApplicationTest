@@ -54,7 +54,8 @@
             <td class="p-4 w-1/6 overflow-hidden"><?php echo $designation;  ?></td>  
             <td class="p-4 w-1/6 overflow-hidden"><?php echo $user_email;  ?></td>  
             <td class="p-4 w-1/6 overflow-hidden"><?php echo $user_type;  ?></td>  
-            <td class="p-4 w-1/6 overflow-hidden"><a href="assignhod.php"><button class="text-green-400" type="submit"  name="<?php echo "$user_id"; ?>">Assign</button></a></td>  
+            <td class="p-4 w-1/6 overflow-hidden"><a href="assignhod.php"><button class="text-green-400" type="submit"  name="<?php echo "$user_id"; ?>">Assign</button></a></td> 
+            <td class="p-4 w-1/6 overflow-hidden"><a href="deassignhod.php"><button class="text-red-400" type="submit"  name="<?php echo "$user_id"; ?>">Deassign</button></a></td>
         </tr>  
             </form>
         <?php
